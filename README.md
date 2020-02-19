@@ -2,7 +2,7 @@
 
 Part 1 - Convert the data into a dataframe
 
-Every document is converted into a list of string using the function split().
+Every document is converted into a list of strings using the function split().
 The words are lowercased so that there is no difference if they appear at the beginning or in the middle of a sentence, even if this could be a problem in presence of acronyms or proper names.
 Before creating the DataFrame, the words that appear in the string.punctuation list are removed.
 
